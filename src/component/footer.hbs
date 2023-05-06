@@ -1,0 +1,7 @@
+<div>
+    {{#with footer.contacts}}
+    {{>link text=email.text href=email.href }}
+    {{>link text=phone.text href=phone.href}}
+    {{>link text=social.text href=social.href blank=true noLine=true}}
+    {{/with}}
+</div>
